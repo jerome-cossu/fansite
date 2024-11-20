@@ -1,0 +1,126 @@
+html{
+    background-image: url(images/fond\ pnl\ 2.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: repeat;
+}
+header{
+    background-image: url(images/en\ tete.jpg);
+    padding-block-start: 30px;
+    padding-block-end: 30px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 3px;
+}
+.start{
+    display: flex;
+    justify-content: space-evenly;
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    color: rgb(247, 234, 234);
+    font-size:xx-large ;
+    font-style: italic;
+    text-decoration:underline;
+}
+a{
+    color: rgb(247, 234, 234);
+    text-decoration: underline;
+}
+a:hover{
+    color: rgb(250, 129, 48);
+    text-decoration:dashed;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+    font-size: larger;
+    color: rgb(247, 234, 234);
+}
+.description p{
+    text-align: center;
+}
+.onglet{
+    text-decoration: underline;
+}
+.picture{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.picture img{
+    border-radius: 5px;
+}
+.title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    color: rgb(247, 234, 234);
+    font-size:xx-large ;
+    font-style: italic;
+    text-decoration:underline; 
+}
+h2{
+    color: rgb(247, 234, 234);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:xx-large ;
+    font-style: italic;
+    text-decoration:underline;
+    font-size:x-large;
+}
+.history{
+    margin-left: 75px;
+    margin-right: 75px;
+}
+p{
+    font-size: larger;
+    color: rgb(247, 234, 234);
+    font-style: italic;
+}
+.album{
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+.album img{
+    border-radius: 5px;
+    width: 250px;
+    height: 250px;
+}
+footer{
+    background-image: url(images/bas\ de\ page.jpg);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    background-size: cover;
+    background-position: center;
+}
+.end-section{
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+}
+.album-picture{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 50px;   
+}
+.album-picture img {
+    border-radius: 5px;
+}
+.end-section img{
+    border-radius: 10px;
+}
+
+
+
+
+
+

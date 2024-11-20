@@ -1,0 +1,81 @@
+html{
+    background-image: url(images/fond\ index.jpg);
+    background-size: auto;
+}
+header{
+    background-image: url(images/en\ tete.avif);
+    padding-block-start: 30px;
+    padding-block-end: 30px;
+    background-size: cover;
+    background-position: center;   
+    border-radius: 3px;
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+a:hover{
+    color: rgb(247, 119, 45);
+    text-decoration:dashed;
+}
+.start{
+    display: flex;
+    justify-content: space-evenly;
+}
+.picture{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.picture img{
+    border-radius: 5px;
+    width: 450px;
+    height: 450px;
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    color: rgb(247, 234, 234);
+    font-size:xx-large ;
+    font-style: italic;
+    text-decoration:underline;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+    font-size: larger;
+    color: rgb(247, 234, 234);
+}
+p{
+    font-size: larger;
+    color: rgb(247, 234, 234);
+    font-style: italic;
+}
+.description p{
+    text-align: center;
+}
+footer{
+    background-image: url(images/en\ tete.avif);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    background-size: cover;
+    background-position: center;
+}
+.end-section{
+    display: flex;
+    justify-content: space-around;
+}
+.description a:hover{
+    color: rgb(48, 102, 250);
+    text-decoration:dashed;
+    
+}
+.end-section img{
+    border-radius: 10px;
+}
